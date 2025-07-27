@@ -1,3 +1,13 @@
+// // index.tsx
+// import { Text, View } from 'react-native';
+
+// export default function Index() {
+//   return (
+//     <View>
+//       <Text>Finance Tracker</Text>
+//     </View>
+//   );
+// }
 import { Text, View } from "react-native";
 import "./global.css";
  
