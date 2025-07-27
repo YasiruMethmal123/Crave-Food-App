@@ -1,22 +1,11 @@
-// // index.tsx
-// import { Text, View } from 'react-native';
-
-// export default function Index() {
-//   return (
-//     <View>
-//       <Text>Finance Tracker</Text>
-//     </View>
-//   );
-// }
-import { Text, View } from "react-native";
+import { FlatList, Text, View } from "react-native";
 import "./global.css";
+import { SafeAreaView } from "react-native-safe-area-context";
  
 export default function Index() {
   return (
-    <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-xl font-bold text-blue-500">
-        Welcome to Nativewind!
-      </Text>
-    </View>
+    <SafeAreaView>
+      <FlatList data={[offers]} renderItem={({item}) =>(<div/>)}/>
+    </SafeAreaView>
   );
 }
