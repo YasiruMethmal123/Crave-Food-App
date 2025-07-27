@@ -15,6 +15,8 @@
     "@react-navigation/bottom-tabs": "^7.3.10",
     "@react-navigation/elements": "^2.3.8",
     "@react-navigation/native": "^7.1.6",
+    "@types/react-dom": "^19.1.6",
+    "clsx": "^2.1.1",
     "expo": "~53.0.20",
     "expo-blur": "~14.1.5",
     "expo-constants": "~17.1.7",
@@ -39,6 +41,7 @@
     "react-native-screens": "~4.11.1",
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
+    "tailwind-rn": "^4.2.0",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
@@ -47,9 +50,9 @@
     "eslint": "^9.25.0",
     "eslint-config-expo": "~9.2.0",
     "metro-react-native-babel-preset": "^0.77.0",
-    "typescript": "~5.8.3",
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.17",
-    "prettier-plugin-tailwindcss": "^0.5.11"
+    "typescript": "~5.8.3"
   },
   "private": true
 }
